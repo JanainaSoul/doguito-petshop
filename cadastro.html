@@ -34,7 +34,7 @@
                         <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
                     <div class="input-container">
-                        <input name="senha" id="senha" class="input" type="password" minlength="6" placeholder="Senha" required>
+                        <input name="senha" id="senha" class="input" type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[!@#$%^&*_=+-]).{6,12}$" title="A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra maíscula, um número e não deve conter símbolos" placeholder="Senha" required>
                         <label class="input-label" for="senha">Senha</label>
                         <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
@@ -81,3 +81,13 @@
     </main>
 </body>
 </html>
+
+
+<!--pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[!@#$%^&*_=+-]).{6,12}$"
+    (?=.*[a-z]) permitido - conjunto de regras de a até z minusculos
+    ?=.*[A-Z]) permitido - conjunto de regras de A até Z maisculos
+    (?=.*[0-9]) permitido - conjunto de numeros de 0 a 9
+    (?!.*[!@#$%^&*_=+-]) não é permitido nenhum desses caracteres
+    {6,12} - aqui vc determina o numero minimo e maximo da senha
+?= permitido
+?! não é permitido-->
