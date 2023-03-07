@@ -3,6 +3,12 @@ Curso JavaScript na Web: validação de formulários e HTML - Alura
 
 # Linguagens 
 
+HTML
+
+CSS
+
+JavaScript
+
 
 # Aprendizados 
 
