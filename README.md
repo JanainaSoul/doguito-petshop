@@ -24,3 +24,5 @@ minlength para criar regra de numero minimo de caracteres para senha
 
 
 # Artigos
+
+https://regexr.com/.
