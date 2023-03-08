@@ -78,3 +78,5 @@ https://regexr.com/.
 https://github.com/codermarcos/simple-mask-money -> para mascara de valores
 
 https://regexlib.com/Search.aspx?k=password&AspxAutoDetectCookieSupport=1 -> regras regex
+
+https://www.alura.com.br/artigos/preenchendo-formulario-html-automaticamente-com-ajax ->ajax
