@@ -65,8 +65,16 @@ Como fazer uma requisição para a API da ViaCEP
 
 Preencher outros campos do formulário com a resposta da API da ViaCEP
 
+6 - Aplicação de Máscara:
+
+Como adicionar máscara monetária para o campo de preço.
+
 
 
 # Artigos
 
 https://regexr.com/.
+
+https://github.com/codermarcos/simple-mask-money -> para mascara de valores
+
+https://regexlib.com/Search.aspx?k=password&AspxAutoDetectCookieSupport=1 -> regras regex
